@@ -48,6 +48,7 @@ a {
   height: 300px;
   box-shadow: 0 15px 20px -15px #000;
   cursor: pointer;
+  overflow: hidden;
 }
 .card-date {
   display: block;
@@ -81,9 +82,8 @@ line-height: 20px;
   font-weight: 300;
 }
 
-.card-1 {
+/* .card-1 {
   background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 40%), url(../img/img-1.jpg) center no-repeat;
-  transition: bacground-image 5s ease-in;
 }
 .card-2 {
   background:linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 40%),  url(../img/img-2.jpg) center no-repeat;
@@ -92,16 +92,40 @@ line-height: 20px;
   background:linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 40%),  url(../img/img-3.jpg) center no-repeat;
 }
 .card-1:hover {
-  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-1.jpg) center no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-1.jpg) center no-repeat  ;
+  background-image: none;
 }
 .card-2:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-2.jpg) center no-repeat;
 }
 .card-3:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-3.jpg) center no-repeat;
+} */
+
+.card-1 {
+  background: url(../img/img-1.jpg) center no-repeat;
+}
+.card-2 {
+  background: url(../img/img-2.jpg) center no-repeat;
+}
+.card-3 {
+  background: url(../img/img-3.jpg) center no-repeat;
 }
 
-
+.card-grad {
+  width: 100%;
+  height: 105%;
+  position: absolute;
+  left: 0;
+  bottom: -5%;
+  transition: bottom .1s ease-out;
+  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 45%);
+}
+.card-text:hover .card-grad:hover,
+.card-grad:hover {
+  bottom: 0;
+  transition: bottom .1s ease-in;
+}
 
 .more {
   background-color: #f72b3b;
