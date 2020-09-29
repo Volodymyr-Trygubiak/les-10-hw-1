@@ -82,26 +82,6 @@ line-height: 20px;
   font-weight: 300;
 }
 
-/* .card-1 {
-  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 40%), url(../img/img-1.jpg) center no-repeat;
-}
-.card-2 {
-  background:linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 40%),  url(../img/img-2.jpg) center no-repeat;
-}
-.card-3 {
-  background:linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 40%),  url(../img/img-3.jpg) center no-repeat;
-}
-.card-1:hover {
-  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-1.jpg) center no-repeat  ;
-  background-image: none;
-}
-.card-2:hover {
-  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-2.jpg) center no-repeat;
-}
-.card-3:hover {
-  background: linear-gradient(to top, rgba(0, 0, 0, .9) , rgba(0, 0, 0, 0) 50%), url(../img/img-3.jpg) center no-repeat;
-} */
-
 .card-1 {
   background: url(../img/img-1.jpg) center no-repeat;
 }
